@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PreSkool</title>
+    <link rel="shortcut icon" href="asset/image/logo.png">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="asset/css/all.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="asset/font/stylesheet.css">
+    <!-- media -->
+    <link rel="stylesheet" href="asset/css/media/media1.css">
+</head>
+
+<body>
+        <header class="d-flex justify-content ">
+        <div class="logoh">
+            <div class="d-flex justify-content ">
+                <div>
+                    <!-- <img src="asset/images/logo.png" class="logo-1"> -->
+                    <img id="home-button" src="asset/images/logo.png" height=80px width=150px style="object-fit:scale-down;"><br>
+                </div>
+                <div class="ml-80">
+                    <button><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <div class="search ">
+                    <input type="search" placeholder=" Search Here">
+                </div>
+            </div>
+        </div>
+
+        <div class="admin d-flex mt-10 align-center">
+
+            <img src="asset/images/bell.png" width="35px" class="head-img mr-50">
+            <div class="flag">
+                <img src="asset/images/united-states.png" class="head-img mr-50 ">
+                <ul class="dropdown2 align-left">
+                    <li class="drop1"><a><img src="asset/images/united-states.png" class="head-img"
+                                width="30px">English</a></li>
+                    <li class="drop2"><a><img src="asset/images/flag2.png" class="head-img" width="30px">Frances</a>
+                    </li>
+                    <li class="drop3"><a><img src="asset/images/flag3.png" class="head-img" width="30px">Germany</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-regular fa-square head-img mr-50"></i>
+            <div class="admin-ph d-flex align-center mr-15">
+                <div class="mr-15">
+                    <img src="asset/images/adminimg.jpg" width="40px">
+                    <ul class="dropdown">
+                        <li class="drop1"><a>
+                                <div class="mr-15 d-flex">
+                                    <span><img src="asset/images/adminimg.jpg" width="40px"></span>
+
+                                    <span>Ryan Tailor</span>
+                                    <!-- <p>Administration</p> -->
+                                </div>
+                            </a></li>
+                        <li class="drop2"><a> My Profile</a></li>
+                        <li class="drop2"><a>Inbox</a></li>
+                        <li class="drop3"><a href="login.html">Log-Out</a></li>
+                    </ul>
+                </div>
+                <div class="mr-15">
+                    <span>Ryan Tailor</span>
+                    <p>Administration</p>
+                </div>
+                <div class="align-center mr-15">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </header>
+
+
+    <aside>
+        <div class="logo">
+
+            <!-- 
+            <div class="container">
+                <!-- <h1>Toggle between two images in jQuery</h1> -->
+            <!-- <img id ="home-button" src="https://tinyurl.com/hvbs9ch" height=100 width=100><br>
+                 <button><i class="fa-solid fa-bars"></i></button>
+                 <div>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                </div> -->
+
+            <div>
+                <div class="menu vh100">
+                    <div class="mainmenu">
+                        <h2>Main Menu</h2>
+                    </div>
+
+                    <ul>
+                        <li class="dash2 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-table-cells"></i><span
+                                    class="dash">Dashboard</span><i class="fa-solid fa-chevron-right"></i> </a>
+                            <ul class="dash12">
+                                <li> <button class="asidebtn">Admin Dashboard</button> </li>
+                                <li> <button class="asidebtn">Student Dashboard</button></li>
+                                <li><button class="asidebtn">Teacher Dashboard</button></li>
+                            </ul>
+                        </li>
+
+                        <li class="dash3 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-graduation-cap"></i><span
+                                    class="dash">Students</span><i class="fa-solid fa-chevron-right"></i></a>
+                            <ul class="dash13">
+                                <li> <button class="asidebtn">Student List</button> </li>
+                                <li> <button class="asidebtn">Student View</button></li>
+                                <li><button class="asidebtn">Student List</button></li>
+                                <li><button class="asidebtn">Student Add</button></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="dash4 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-chalkboard-user"></i><span
+                                    class="dash">Teachers</span><i class="fa-solid fa-chevron-right"></i> </a>
+                            <ul class="dash14">
+                                <li> <button class="asidebtn">Teacher List</button> </li>
+                                <li> <button class="asidebtn">Teacher View</button></li>
+                                <li><button class="asidebtn">Teacher List</button></li>
+                                <li><button class="asidebtn">Teacher Add</button></li>
+                            </ul>
+                        </li>
+
+                        <li class="dash5 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-building"></i><span
+                                    class="dash">Departments</span><i class="fa-solid fa-chevron-right"></i> </a>
+                            <ul class="dash15">
+                                <li> <button class="asidebtn">Department List</button> </li>
+                                <li> <button class="asidebtn">Department View</button></li>
+                                <li><button class="asidebtn">Department List</button></li>
+                                <li><button class="asidebtn">Department Add</button></li>
+                            </ul>
+                        </li>
+
+                        <li class="dash6 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-book-open-reader"></i><span
+                                    class="dash">Subjects</span><i class="fa-solid fa-chevron-right"></i> </a>
+                            <ul class="dash16">
+                                <li> <button class="asidebtn">Subjects View</button></li>
+                                <li><button class="asidebtn">Subjects List</button></li>
+                                <li><button class="asidebtn">Subjects Add</button></li>
+                            </ul>
+                        </li>
+
+                        <li class="dash7 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-file-lines"></i><span
+                                    class="dash">Invoices</span><i class="fa-solid fa-chevron-right"></i> </a>
+                            <ul class="dash17">
+                                <li> <button class="asidebtn">Invoices View</button></li>
+                                <li><button class="asidebtn">Invoices List</button></li>
+                                <li><button class="asidebtn">Invoices Add</button></li>
+                                <li><button class="asidebtn">Invoices Grid</button></li>
+                                <li><button class="asidebtn">Invoices Detail</button></li>
+
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <div class="mainmenu">
+                        <h2>Management</h2>
+                    </div>
+
+                    <ul>
+
+                        <li class="dash8 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-file-invoice"></i><span
+                                    class="dash">Accounts</span><i class="fa-solid fa-chevron-right"></i></a>
+                            <ul class="dash18">
+                                <li> <button class="asidebtn">Fees Collection</button> </li>
+                                <li> <button class="asidebtn">Expenses</button></li>
+                                <li><button class="asidebtn">Salary</button></li>
+                                <li><button class="asidebtn">Add Fees</button></li>
+                                <li><button class="asidebtn">Add Expenses</button></li>
+                                <li><button class="asidebtn">Add Slalry</button></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="dash9 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-holly-berry"></i><span
+                                    class="dash">Holiday</span></a>
+                            <!-- <ul class="dash19">
+                                <li> <button class="asidebtn">Teacher List</button> </li>
+                                <li> <button class="asidebtn">Teacher View</button></li>
+                                <li><button class="asidebtn">Teacher List</button></li>
+                                <li><button class="asidebtn">Teacher Add</button></li>
+                            </ul> -->
+                        </li>
+
+                        <!-- <li class="dash10 mainmenu"><a href=""><i class="fa-solid fa-building"></i><span
+                                    class="dash">Blogs</span> </a> -->
+                             <!-- <ul class="dash20">
+                                <li> <button class="asidebtn">Department List</button> </li>
+                                <li> <button class="asidebtn">Department View</button></li>
+                                <li><button class="asidebtn">Department List</button></li>
+                                <li><button class="asidebtn">Department Add</button></li>
+                            </ul>  -->
+                        <!-- </li> -->
+
+                        <li class="dash31 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-clipboard-list"></i><span
+                            class="dash">Exam List</span></i></a>
+                    <!-- <ul class="dash18">
+                        <li> <button class="asidebtn">Student List</button> </li>
+                        <li> <button class="asidebtn">Student View</button></li>
+                        <li><button class="asidebtn">Student List</button></li>
+                        <li><button class="asidebtn">Student Add</button></li>
+
+                    </ul> -->
+                </li>
+
+                <li class="dash32 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-book"></i><span
+                    class="dash">Library</span></a>
+             <!-- <ul class="dash19">
+                <li> <button class="asidebtn">Student List</button> </li>
+                <li> <button class="asidebtn">Student View</button></li>
+                <li><button class="asidebtn">Student List</button></li>
+                <li><button class="asidebtn">Student Add</button></li>
+
+            </ul>  -->
+        </li>
+
+        <li class="dash33 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-gear"></i><span
+            class="dash">Settings</span></a>
+     <ul class="dash331">
+        <li> <button class="asidebtn">Student List</button> </li>
+        <li> <button class="asidebtn">Student View</button></li>
+        <li><button class="asidebtn">Student List</button></li>
+        <li><button class="asidebtn">Student Add</button></li>
+
+    </ul> 
+</li>
+
+<div class="mainmenu">
+    <h2>Pages</h2>
+</div>
+
+<li class="dash34 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-shield-halved"></i><span
+    class="dash">Authentication</span></a>
+
+</li>
+
+
+
+<li class="dash35 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-file"></i><span
+    class="dash">Blank Page</span></a>
+ <ul class="dash18">
+<li> <button class="asidebtn">Student List</button> </li>
+<li> <button class="asidebtn">Student View</button></li>
+<li><button class="asidebtn">Student List</button></li>
+<li><button class="asidebtn">Student Add</button></li>
+
+</ul> 
+</li>
+
+
+<div class="mainmenu">
+    <h2>Others</h2>
+</div>
+
+
+<li class="dash36 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-baseball"></i><span
+    class="dash">Sports</span></a>
+
+</li>
+<li class="dash37 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-hotel"></i><span
+    class="dash">Hostel</span></a>
+
+</li>
+<li class="dash38 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-graduation-cap"></i><span
+    class="dash">Transport</span></a>
+
+</li>
+
+                        <li class="dash11 mainmenu"><a href="javascript:void(0);"><i class="fa-solid fa-book-open-reader"></i><span
+                                    class="dash">Subjects</span><i class="fa-solid fa-chevron-right"></i> </a>
+                            <ul class="dash21">
+                                <li> <button class="asidebtn">Subjects View</button></li>
+                                <li><button class="asidebtn">Subjects List</button></li>
+                                <li><button class="asidebtn">Subjects Add</button></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+    </aside>
+    <content class="body">
+        <div class="welcome d-flex ml-260 justify-content">
+            <div>
+                <h2 class="ml-60">Welcome Admin!</h2>
+            </div>
+            <div>
+                <h3 class="mr-60">Home / Admin</h3>
+            </div>
+        </div>
+        <div class="grid d-flex ">
+            <div class="box d-flex justify-content">
+
+                <div>
+                    <h4>Students</h4>
+                    <h1>50055</h1>
+                </div>
+                <div><img src="asset/images/dash-icon-01.svg"> </div>
+            </div>
+            <div class="box d-flex justify-content">
+                <div>
+                    <h4>Awards</h4>
+                    <h1>50+</h1>
+                </div>
+                <div><img src="asset/images/dash-icon-02.svg"></div>
+            </div>
+            <div class="box d-flex justify-content">
+
+                <div>
+                    <h4>Department</h4>
+                    <h1>30+</h1>
+                </div>
+                <div><img src="asset/images/dash-icon-03.svg"></div>
+            </div>
+            <div class="box d-flex justify-content">
+                <div>
+                    <h4>Revenue</h4>
+                    <h1>$505</h1>
+                </div>
+                <div><img src="asset/images/dash-icon-04.svg"></div>
+            </div>
+            <div class="box">
+                <div class="d-flex justify-content md-30 align-center">
+
+                    <h3 class="h3">Overview</h3><img src="asset/images/dots.png" width="15px">
+                </div>
+                <div id="chart"></div>
+            </div>
+            <div class="box">
+                <div class="d-flex justify-content md-30 align-center">
+
+                    <h3 class="h3">Star Student</h3><button class="dotbtn"><img src="asset/images/dots.png"
+                            width="15px"></button>
+                </div>
+                <div id="chart2"></div>
+            </div>
+
+            <!-- Table ****************** -->
+            <div class="box">
+                <div class="d-flex justify-content md-30 align-center">
+                    <h3 class="h3">Star Student</h3><button class="dotbtn"><img src="asset/images/dots.png"
+                            width="15px"></button>
+                </div>
+                <table class="data-sheet">
+                    <thead>
+                        <tr class="sheet-heading">
+                            <th>
+                                <h3>ID</h3>
+                            </th>
+                            <th>
+                                <h3>Name</h3>
+                            </th>
+                            <th>
+                                <h3>Marks</h3>
+                            </th>
+                            <th>
+                                <h3>Percentage</h3>
+                            </th>
+                            <th>
+                                <h3>Year</h3>
+                            </th>
+
+                            <!-- <th>
+                                <h3>Actions</h3>
+                            </th> -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="sheet-data">
+                            <td>PRE2209</td>
+
+                            <td class="d-flex align-center"><img src="asset/images/sheet1.jpg" alt="" width="30px">John
+                                Smith</td>
+                            <td>1185</td>
+                            <td>98%</td>
+                            <td>2019</td>
+
+                        </tr>
+                        <tr class="sheet-data">
+                            <td>PRE1245
+                            </td>
+                            <td class="d-flex align-center"><img src="asset/images/sheet2.jpg" alt="" width="30px">Jolie
+                                Hoskins</td>
+                            <td>1195</td>
+                            <td>99.5%</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr class="sheet-data">
+                            <td>PRE1625</td>
+                            <td class="d-flex align-center"><img src="asset/images/sheet3.jpg" alt=""
+                                    width="30px">Pennington Joy</td>
+                            <td>1196</td>
+                            <td>99.6%</td>
+                            <td>2017</td>
+
+                        </tr>
+                        <tr class="sheet-data">
+                            <td>PRE2516</td>
+                            <td class="d-flex align-center"><img src="asset/images/sheet4.jpg" alt="" width="30px">
+                                Millie Marsden </td>
+                            <td>1180</td>
+                            <td>98.2%</td>
+                            <td>2016</td>
+
+                        </tr>
+                        <tr class="sheet-data">
+                            <td>PRE2209</td>
+
+                            <td class="d-flex align-center"><img src="asset/images/sheet5.jpg" alt="" width="30px">John
+                                Smith</td>
+                            <td>1188</td>
+                            <td>98%</td>
+                            <td>2015</td>
+
+                        </tr>
+                        <!-- <tr class="sheet-data">
+                            <td><img src="asset/image/sheet6.jpg" alt=""></td>
+                            <td>Cara Stevens</td>
+                            <td><a
+                                    href="https://mail.yahoo.com/;_ylt=Awrx.O2SKAlms3M6ARi7HAx.;_ylu=Y29sbwNzZzMEcG9zAzUEdnRpZAMEc2VjA3Ny">Cara
+                                    Stevens</a></td>
+                            <td>15/05/2002</td>
+                            <td class="btn-6 btn"><span>Gymnastics</span></td>
+                           
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="box">
+                <div class="d-flex  md-8 align-center">
+                    <h3 class="h3">Student Activity</h3><button class="dotbtn"><img src="asset/images/dots.png"
+                            width="15px"></button>
+                </div>
+                <div class="d-flex md-30 activity align-center">
+                    <img src="asset/images/activity1.svg" width="35px">
+                    <div class="alignleft  para">
+                        <h4 class="md-8">1st place in "Chess”</h4>
+                        <p>John Doe won 1st place in "Chess"</p>
+                    </div>
+                    <div class="d-flex day-ago1">
+                        <button class="daybtn">1 Day ago</button>
+                    </div>
+                </div>
+
+                <div class="d-flex md-30 activity align-center">
+                    <img src="asset/images/activity2.svg" width="35px">
+                    <div class="alignleft  para">
+                        <h4 class="md-8">Participated in "Carrom"</h4>
+                        <p>Justin Lee participated in "Carrom"</p>
+                    </div>
+                    <div class="d-flex day-ago2">
+                        <button class="daybtn">2 Hours ago</button>
+                    </div>
+                </div>
+
+                <div class="d-flex md-30 activity align-center">
+                    <img src="asset/images/activity3.svg" width="35px" height="40px">
+                    <div class="alignleft  para">
+                        <h4 class="md-8">Internation conference in "St.John School"</h4>
+                        <p>Justin Leeattended internation conference in "St.John School"</p>
+                    </div>
+                    <div class="d-flex day-ago3">
+                        <button class="daybtn">2 Week ago</button>
+                    </div>
+                </div>
+
+                <div class="d-flex md-30 activity align-center">
+                    <img src="asset/images/activity4.svg" width="35px">
+                    <div class="alignleft  para">
+                        <h4 class="md-8">Won 1st place in "Chess"</h4>
+                        <p>John Doe won 1st place in "Chess"</p>
+                    </div>
+                    <div class="d-flex day-ago4">
+                        <button class="daybtn">3 Day ago</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box d-flex justify-content down1">
+
+                <div>
+                    <h4 class="md-8 ">Like us On Facebook</h4>
+                    <h2>50,059</h2>
+                </div>
+                <div class="down-img"><img src="asset/images/facebook.svg" width="45px"> </div>
+            </div>
+
+            <div class="box d-flex justify-content down2">
+
+                <div>
+                    <h4 class="md-8 ">Follow us On Twitter</h4>
+                    <h2>48,596</h2>
+                </div>
+                <div class="down-img"><img src="asset/images/twitter.svg" width="45px"> </div>
+            </div>
+
+
+
+            <div class="box d-flex justify-content down3">
+
+                <div>
+                    <h4 class="md-8 ">Follow us on Instagram</h4>
+                    <h2>52,850</h2>
+                </div>
+                <div class="down-img"><img src="asset/images/instagram.svg" width="45px"> </div>
+            </div>
+
+
+
+            <div class="box d-flex justify-content down4">
+
+                <div>
+                    <h4 class="md-8 ">Follow us on Linkedin</h4>
+                    <h2>69,050</h2>
+                </div>
+                <div class="down-img"><img src="asset/images/linkedin.svg" width="45px"> </div>
+            </div>
+
+
+
+
+        </div>
+    </content>
+
+    <!-- Jquery -->
+    <script src="asset/jq/jquery-3.7.1.min.js"></script>
+    <!-- apexchart -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <!-- chrt js -->
+    <script src="asset/jq/chart.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.fa-bars').click(function () {
+                $('aside').toggleClass('w-60');
+                $('.fa-chevron-right').toggleClass('d-none');
+                $('.dash').toggleClass('d-none');
+                $('h2').toggleClass('d-none');
+                $('header').toggleClass("ml-60");
+                $('.grid').toggleClass("ml-60");
+                $('.logo-1').attr('src', 'asset/images/logo2.png');
+                // $('button').toggleClass("ml-60");
+            });
+            $('.admin-ph').click(function () {
+                $('.dropdown').slideToggle(500);
+            });
+            $('.flag').click(function () {
+                $('.dropdown2').slideToggle(500);
+            });
+            $('.dash1').click(function () {
+                $('.dash11').slideToggle(500);
+            });
+            $('.dash2').click(function () {
+                $('.dash12').slideToggle(500);
+            });
+            $('.dash3').click(function () {
+                $('.dash13').slideToggle(500);
+            });
+            $('.dash4').click(function () {
+                $('.dash14').slideToggle(500);
+            });
+            $('.dash5').click(function () {
+                $('.dash15').slideToggle(500);
+            });
+            $('.dash6').click(function () {
+                $('.dash16').slideToggle(500);
+            });
+            $('.dash7').click(function () {
+                $('.dash17').slideToggle(500);
+            });
+            $('.dash8').click(function () {
+                $('.dash18').slideToggle(500);
+            });
+            $('.dash9').click(function () {
+                $('.dash19').slideToggle(500);
+            });
+            $('.dash10').click(function () {
+                $('.dash20').slideToggle(500);
+            });
+            $('.dash11').click(function () {
+                $('.dash21').slideToggle(500);
+            });
+
+
+            $("button").on("click", function () {
+                var image_1 = $("img#home-button");
+                var img1_src = "asset/images/logo2.png";
+                var img2_src = "asset/images/logo.png";
+
+                if (image_1.attr("src") == img1_src) {
+
+                    image_1.attr("src", img2_src);
+                } else {
+                    image_1.attr("src", img1_src);
+                }
+            });
+        })
+
+    </script>
+</body>
+
+</html>

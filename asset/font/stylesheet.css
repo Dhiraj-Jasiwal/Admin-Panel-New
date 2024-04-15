@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-Bold.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-Black.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-BlackItalic.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-BoldItalic.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-ExtraBold.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-ExtraLight.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-Italic.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-Medium.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-Light.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Serif 28pt Condensed';
+    src: url('RobotoSerif28ptCondensed-LightItalic.woff2') format('woff2'),
+        url('RobotoSerif28ptCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
